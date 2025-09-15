@@ -6,7 +6,7 @@ describe('Http Request', ()=> {
         .should('equal', 200)
     })
 
-    it.only('post appel', ()=> {
+    it('post appel', ()=> {
 
         cy.request({
 
@@ -27,6 +27,7 @@ describe('Http Request', ()=> {
        
  
     })
+
 
 
 
