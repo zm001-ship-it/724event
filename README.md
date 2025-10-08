@@ -11,9 +11,9 @@
 
 # Générer un rapport de test avec plagin cypress-mochawesome-reporter 
 
-1. install cypress-mochawesome-reporter
-   ``npm i --save-dev cypress-mochawesome-reporter``
-2. Change cypress reporter & setup hooks
+> 1. install cypress-mochawesome-reporter
+   ```npm i --save-dev cypress-mochawesome-reporter````
+> 2. Change cypress reporter & setup hooks
     Edit config file (cypress.config.js by default)
 
    `const { defineConfig } = require('cypress');
@@ -32,6 +32,7 @@ module.exports = defineConfig({
 
 4. run cypress
    
+
 
 
 
