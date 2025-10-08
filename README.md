@@ -28,11 +28,12 @@ module.exports = defineConfig({
   },
 });```
 
-3. Add to cypress/support/e2e.js
+> 3. Add to cypress/support/e2e.js
     ``` javascript import 'cypress-mochawesome-reporter/register';```
 
-4. run cypress
+> 4. run cypress
    
+
 
 
 
