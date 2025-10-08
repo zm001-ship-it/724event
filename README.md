@@ -17,7 +17,7 @@
 > 2. Change cypress reporter & setup hooks
     Edit config file (cypress.config.js by default)
 
-   ``` javascript const { defineConfig } = require('cypress');
+  <pre> ``` javascript const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',
@@ -26,13 +26,14 @@ module.exports = defineConfig({
       require('cypress-mochawesome-reporter/plugin')(on);
     },
   },
-});```
+});```</pre>
 
 > 3. Add to cypress/support/e2e.js
-    ``` javascript import 'cypress-mochawesome-reporter/register';```
+  <pre> ``` javascript import 'cypress-mochawesome-reporter/register';```</pre>
 
 > 4. run cypress
    
+
 
 
 
