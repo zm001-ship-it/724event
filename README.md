@@ -12,12 +12,12 @@
 # Générer un rapport de test avec plagin cypress-mochawesome-reporter 
 > 1. install cypress-mochawesome-reporter
   
- ``` npm i --save-dev cypress-mochawesome-reporter ``` 
+  npm i --save-dev cypress-mochawesome-reporter  
 
 > 2. Change cypress reporter & setup hooks
     Edit config file (cypress.config.js by default)
 
-  <pre> ``` const { defineConfig } = require('cypress');
+  <pre> const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',
@@ -26,13 +26,14 @@ module.exports = defineConfig({
       require('cypress-mochawesome-reporter/plugin')(on);
     },
   },
-});```</pre>
+});</pre>
 
 > 3. Add to cypress/support/e2e.js
-  <pre> `` import 'cypress-mochawesome-reporter/register'; `` </pre>
+  <pre> import 'cypress-mochawesome-reporter/register'; </pre>
 
 > 4. run cypress
    
+
 
 
 
