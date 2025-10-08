@@ -10,10 +10,11 @@
     une interface s'ouvre, apres le choix du navigateur on choisi le fichier de test cypress
 
 # Générer un rapport de test avec plagin cypress-mochawesome-reporter 
-
 > 1. install cypress-mochawesome-reporter
-    <pre> bash # npm i --save-dev cypress-mochawesome-reporter ``` ```</pre>
- 2. Change cypress reporter & setup hooks
+    <pre> bash
+npm i --save-dev cypress-mochawesome-reporter ``` ```</pre>
+
+> 2. Change cypress reporter & setup hooks
     Edit config file (cypress.config.js by default)
 
    `const { defineConfig } = require('cypress');
@@ -32,6 +33,7 @@ module.exports = defineConfig({
 
 4. run cypress
    
+
 
 
 
